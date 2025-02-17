@@ -153,4 +153,53 @@ margin: 2rem;
     height: 70px;
 }
 
+@media  screen and (min-width:769px) 
+{
+
+    .main-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    height: auto;
+    }
+    .calc-container{
+        width: 75%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap:1.5rem;
+    }
+    .form{
+        
+        width: 50%;
+    }
+    .result-cont{
+        width: 50%;
+    }
+    .label{
+        font-size:1rem;
+    }
+    .input{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .btn{
+        width: 100px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    .sec-head{
+        font-size: 1.5rem;
+    }
+    .amount{
+        font-size: 2rem;
+    }
+    .logo{
+        width: 3rem;
+    }
+
+
+}
   
