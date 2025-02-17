@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    
 }
 .calc-container{
 
@@ -71,7 +71,7 @@
 .btn-container{
 display: flex;
 flex-direction: row;
-/* gap:1rem; */
+gap:1rem;
 justify-content: start;
 align-items: center;
 width: 90%;
@@ -140,134 +140,4 @@ border: none;
     height: 70px;
 }
 
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-    .main-container{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 2rem;
-        height: 100vh;
-    }
-    .calc-container{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        width: 75%;
-        gap: 2rem;
-        padding: 2rem;
-        height: fit-content;
-    }
-    .form{
-        width: 50%;
-        height: fit-content;
-    }
-    .result-cont{
-        width: 50%;
-        height: fit-content;
-    }
-    .label{
-        font-size: 1rem;
-    }
-    .btn{
-        width: 138px;
-        height: 38px;
-    }
-    .input{
-        height: 20px;
-        font-size: 1rem;
-    }
-.btn-container{
-    flex-direction: row;
-flex-wrap: wrap;
-
-}
-  } 
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    .main-container{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 2rem;
-        height: 100vh;
-    }
-    .calc-container{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        width: 75%;
-        gap: 2rem;
-        padding: 2rem;
-        height: fit-content;
-    }
-    .form{
-        width: 50%;
-        height: fit-content;
-    }
-    .result-cont{
-        width: 50%;
-        height: fit-content;
-    }
-    .label{
-        font-size: 1rem;
-    }
-    .btn{
-        width: 138px;
-        height: 38px;
-    }
-    .input{
-        height: 20px;
-        font-size: 1rem;
-    }
-.btn-container{
-flex-wrap: wrap;
-
-}
-  } 
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    .main-container{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 2rem;
-        height: 100vh;
-    }
-    .calc-container{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        width: 75%;
-        gap: 2rem;
-        padding: 2rem;
-        height: fit-content;
-    }
-    .form{
-        width: 50%;
-        height: fit-content;
-    }
-    .result-cont{
-        width: 50%;
-        height: fit-content;
-    }
-    .label{
-        font-size: 1rem;
-    }
-    .btn{
-        width: 138px;
-        height: 38px;
-    }
-    .input{
-        height: 20px;
-        font-size: 1rem;
-    }
-.btn-container{
-flex-wrap: wrap;
-
-}
-  }
   
