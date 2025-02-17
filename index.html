@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=], initial-scale=1.0"> -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Tip calculator</title>
+</head>
+<body>
+    <main>
+        <section class="main-container">
+             <img src="images/logo.svg" class="logo" alt="logo" >  
+            <section class="calc-container">
+                <form class="form" id='form'>
+                    <label class="label" for="bill">Bill</label>
+                    <input class="input" name="bill" id="bill" type="number" >
+                    <label class="label">Select %</label>
+                    <section class="btn-container" id="btn-container">
+                        
+                    </section>
+                    <label class="label" for="people">No of People</label>
+                    <input class="input people" name="people" id="people" type="number" >
+                </form>
+                <section class="result-cont">
+                    <div class="top">
+                        <div class="section1">
+                            <h1 class="sec-head">Tip Amount</h1>
+                            <p class="sec-desc">/ person</p>
+                        </div>
+                        <div class="section1">
+                            <h1 class="sec-amount" id="tip">$0.00</h1>
+                        </div>
+                    
+                    </div>
+                    <div class="bottum">
+                        <div class="section1">
+                            <h1 class="sec-head">Tota1</h1>
+                            <p class="sec-desc">/ person</p>
+                        </div>
+                        <div class="section1">
+                            <h1 class="sec-amount" id="total">$0.00</h1>
+                        </div>
+                    
+                    </div>
+                    <button class="reset" type="reset" id="'reset">Reset</button>
+                </section>
+            </section>
+            </section>
+
+        </section>
+    </main>
+<script src="index.js" ></script>
+</body>
+</html>
