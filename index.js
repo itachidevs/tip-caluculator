@@ -32,7 +32,7 @@ noOfPeople.value=''
     
 }
 
-const resett=(event)=>{
+const reset=(event)=>{
 tipEement.textContent='$0.00';
 totalEement.textContent='$0.00';
 buttons.forEach((btn)=>{
